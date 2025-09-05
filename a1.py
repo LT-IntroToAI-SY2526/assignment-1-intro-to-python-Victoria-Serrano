@@ -43,6 +43,20 @@ Example inputs/outputs:
 - is_even(7) should return False
 """
 
+def calculate_grade(score):
+    '''
+    
+    '''
+    if score >= 90:
+        return "A"
+    if score >= 80:
+        return "B"
+    if score >= 70:
+        return "C"
+    if score >= 60:
+        return "D"
+    else
+        return "F"
 
 
 
@@ -70,7 +84,8 @@ print(f"is_even(7): {is_even(7)}")  # Should print False
 """
 
 print("Testing Problem 1:")
-# Add your tests here
+print(calculate_grade(78))
+print(calculate_grade(40))
 
 print("\nTesting Problem 2:")
 # Add your tests here
