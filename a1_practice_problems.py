@@ -14,6 +14,7 @@ check and we'll be doing them in class.
 Make sure to complete the a1.py problems which should be AI generated.
 """
 
+from ast import Return
 from typing import List, TypeVar
 
 
@@ -27,9 +28,9 @@ def absolute(n: int) -> int:
     Returns:
         the absolute value of the passed in number
     """
-    if n < 0
-    
-    return -1 * n
+    if n < 0:
+        return -1 * n
+    return n
    
 
 
@@ -43,6 +44,9 @@ def factorial(n: int) -> int:
     Returns:
         factorial of the passed in number
     """
+    if n == 1:
+        return 1
+    return n * factorial(n-1)
     raise NotImplementedError("factorial")
 
 
@@ -116,7 +120,7 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
 
     You may assume the list has 3+ names to start
 
-    Args:
+    Args: 
         lst - a list of names (strings)
 
     Returns:
