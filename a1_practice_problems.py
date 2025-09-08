@@ -14,7 +14,7 @@ check and we'll be doing them in class.
 Make sure to complete the a1.py problems which should be AI generated.
 """
 
-from ast import Return
+
 from typing import List, TypeVar
 
 
@@ -44,10 +44,11 @@ def factorial(n: int) -> int:
     Returns:
         factorial of the passed in number
     """
-    if n == 1:
-        return 1
-    return n * factorial(n-1)
    
+    result = 1
+    for num in range(1, n):
+            result = result * num # result *= num
+    return result
 
 
 T = TypeVar("T")
