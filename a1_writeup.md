@@ -20,6 +20,7 @@ After completing your problems, reflect on:
 
 2. **How did you use AI effectively?** Give specific examples of good prompts you used and what you learned from the responses.
 
-3. **What concepts were most challenging?** How did AI help you understand them?
+3. **What concepts were most challenging?** Using AI to generate practice problems for me to complete was the toughest part. I had to learn how to create multiple codes that work.
 
 4. **What did you learn about collaborating with AI?** What strategies worked best for learning rather than just getting answers?
+While collarborating with AI, I found it best to ask questions that provided AI lots of information rather than just asking for the answers.
