@@ -20,7 +20,7 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-[Paste the prompt you used to generate your problem set here]
+[I'm learning Python basics in a high school programming class. I have some experience with Java. Can you create 5-7 practice problems that cover loops]
 
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
@@ -31,8 +31,14 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 # =============================================================================
 
 """
-PROBLEM 1: [Problem Title/Description]
-[Copy the complete problem description from your AI assistant]
+PROBLEM 1: [Write a Python program that uses a for loop to find the sum of all even numbers between 1 and 50 (inclusive).]
+use a for loop to find the sum of all even numbers between 1 and 50
+
+To store the sum: 
+- total_sum = 0
+inputs/outputs:
+-
+- 
 
 Example:
 Problem: Write a function called 'is_even' that takes an integer and returns 
@@ -55,7 +61,7 @@ def calculate_grade(score):
         return "C"
     if score >= 60:
         return "D"
-    else
+    else:
         return "F"
 
 
