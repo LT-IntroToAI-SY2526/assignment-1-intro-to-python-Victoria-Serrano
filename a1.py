@@ -34,6 +34,7 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 PROBLEM 1: [Write a Python program that uses a for loop to find the sum of all even numbers between 1 and 50 (inclusive).]
 use a for loop to find the sum of all even numbers between 1 and 50
 
+
 total_sum = 0
 for num in range(1,51):
     if num % 2 == 0:
