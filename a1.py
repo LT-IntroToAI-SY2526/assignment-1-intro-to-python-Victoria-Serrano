@@ -20,7 +20,7 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
-[I'm learning Python basics in a high school programming class. I have some experience with Java. Can you create 5-7 practice problems that cover loops]
+[I'm learning Python basics in a high school programming class. I have some experience with Java. Can you create 5-7 practice problems that cover functions]
 
 Example: "I'm learning Python basics in a high school programming class. 
 I have some experience with Java. Can you create 5-7 practice problems that cover..."
@@ -31,16 +31,18 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 # =============================================================================
 
 """
-PROBLEM 1: [Write a Python program that uses a for loop to find the sum of all even numbers between 1 and 50 (inclusive).]
-use a for loop to find the sum of all even numbers between 1 and 50
+PROBLEM 1: Greeting someone
+Write a function called greet that takes a name as a parameter and prints:
+:
+input:greet("user_name")
+ouput:Hello, user_name!
+"""
+def greet(Victoria):
+    print("Hello," "Victoria!")
 
+user_name = input("What is your name?")
 
-total_sum = 0
-for num in range(1,51):
-    if num % 2 == 0:
-        total_sum += num
--
-- 
+greet(Victoria)
 
 Example:
 Problem: Write a function called 'is_even' that takes an integer and returns 
@@ -50,11 +52,19 @@ Example inputs/outputs:
 - is_even(4) should return True
 - is_even(7) should return False
 """
+Problem #2: Write a function called add_numbers that takes two numbers and returns their sum.
+"""
+def add_numbers(num1, num2):
+    return num1 + num2
+
+result = add_numbers(5,7)
+print(result)
+#Output: 12
 
 def calculate_grade(score):
-    '''
+    """
     
-    '''
+    """
     if score >= 90:
         return "A"
     if score >= 80:
@@ -67,16 +77,8 @@ def calculate_grade(score):
         return "F"
 
 
-PROBLEM 1: [Write a Python program that uses a for loop to find the sum of all even numbers between 1 and 50 (inclusive).
-use a for loop to find the sum of all even numbers between 1 and 50]
 
 
-total_sum = 0
-for num in range(1, 51):
-    if num % 2 == 0:
-        total_sum += num
-
-print("Sum of all even numbers between 1 and 50:", total_sum)
 
 
 
