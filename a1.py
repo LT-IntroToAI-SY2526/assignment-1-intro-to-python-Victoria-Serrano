@@ -1,6 +1,5 @@
 # Assignment 1: AI-Generated Python Problems
 # Name: [Victoria Serrano]
-
 """
 AI-Generated Problem Set
 
@@ -20,6 +19,7 @@ Remember: The goal is to LEARN, not just get working code!
 
 """
 MY ORIGINAL AI PROMPT:
+
 [I'm learning Python basics in a high school programming class. I have some experience with Java. Can you create 5-7 practice problems that cover functions]
 
 Example: "I'm learning Python basics in a high school programming class. 
@@ -31,29 +31,36 @@ I have some experience with Java. Can you create 5-7 practice problems that cove
 # =============================================================================
 
 """
-PROBLEM 1: Greeting someone
+PROBLEM 2 Greeting someone
 Write a function called greet that takes a name as a parameter and prints:
 :
 input:greet("user_name")
 ouput:Hello, user_name!
 """
+import abc
+import cmd
+from pyrsistent import b
+
+
 def greet(Victoria):
     print("Hello," "Victoria!")
 
-user_name = input("What is your name?")
 
-greet(Victoria)
+#def input("Victoria")
+    #greet("Victoria")
 
+
+"""
 Example:
-Problem: Write a function called 'is_even' that takes an integer and returns 
+Problem: Write a function called, 'is_even' that takes an integer and returns 
 True if the number is even, False if it's odd.
 
 Example inputs/outputs:
 - is_even(4) should return True
 - is_even(7) should return False
 """
-Problem #2: Write a function called add_numbers that takes two numbers and returns their sum.
-"""
+#3: Write a function called add_numbers that takes two numbers and returns their sum.
+
 def add_numbers(num1, num2):
     return num1 + num2
 
@@ -61,10 +68,18 @@ result = add_numbers(5,7)
 print(result)
 #Output: 12
 
+ #4: Write a function called max_of_three that takes three numbers and returns the largest one.
+
+def max_of_three(a,b,c):
+    if a >= b and a >= c:
+        return a
+    elif b >=a and b >= c:
+        return b
+    else:
+        return c 
+
+
 def calculate_grade(score):
-    """
-    
-    """
     if score >= 90:
         return "A"
     if score >= 80:
@@ -76,7 +91,12 @@ def calculate_grade(score):
     else:
         return "F"
 
-
+#5:
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
 
 
 
@@ -96,27 +116,31 @@ def calculate_grade(score):
 Test all your solutions with different inputs
 
 Add asserts if you feel comfortable
-
-Example:
-print("Testing Problem 1:")
-print(f"is_even(4): {is_even(4)}")  # Should print True
-print(f"is_even(7): {is_even(7)}")  # Should print False
 """
+Example: print("Testing Problem 1:")
+print(f"is_even(4): {is_even(4)}") # Should print True
+print(f"is_even(7): {is_even(7)}") # Should print False
 
 print("Testing Problem 1:")
 print(calculate_grade(78))
 print(calculate_grade(40))
 
 print("\nTesting Problem 2:")
-# Add your tests here
+print("Hello, Victoria!")
 
 print("\nTesting Problem 3:")
-# Add your tests here
+print(add_numbers(5, 7))
+print(add_numbers(10, 20))
+
+
 
 print("\nTesting Problem 4:")
-# Add your tests here
+print(max_of_three(10, 25, 7))
+print(max_of_three(a, b, c))
+
 
 print("\nTesting Problem 5:")
-# Add your tests here
+print:(factorial(1))
+print:(factorial(3))
 
 
